@@ -1,0 +1,16 @@
+@use "./style/button.scss"; //now we dont need to import button.scss in every component, we can just import it here and it will be available globally
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    background-color: #161616;
+    color: aliceblue;
+}
